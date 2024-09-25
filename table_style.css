@@ -1,8 +1,97 @@
-table {
+/* table {
   width: 75%;
   font-size: large;
 }
 
 td {
   padding: 10px;
+} */
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+thead {
+  background-color: #f8f9fa;
+}
+
+th {
+  padding: 12px 15px;
+  text-align: left;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Body Styles */
+td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Striped Rows */
+tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+/* Hover Effect */
+tbody tr:hover {
+  background-color: #e9ecef;
+  transition: background-color 0.3s ease;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+  
+  table caption {
+    font-size: 1.3em;
+  }
+  
+  thead {
+    display: none;
+  }
+  
+  tr {
+    margin-bottom: 10px;
+    display: block;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  td {
+    display: block;
+    text-align: right;
+    font-size: 13px;
+    border-bottom: 1px dotted #ccc;
+  }
+  
+  td:last-child {
+    border-bottom: 0;
+  }
+  
+  td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+
+/* Optional: Scrollable Table */
+.table-container {
+  max-height: 400px;
+  overflow-y: auto;
 }

@@ -26,9 +26,9 @@
 	  },
 	  {
 		"Day": "Friday",
-		"Course": null,
-		"StartTime": null,
-		"EndTime": null
+		"Course": "N/A",
+		"StartTime": "N/A",
+		"EndTime": "N/A"
 	  }
 	]
   }
