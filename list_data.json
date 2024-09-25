@@ -1,22 +1,48 @@
 {
-	"movies": [
-		{
-			"Title": "Lost In Translation",
-			"Director": "Sofia Coppola",
-			"Rating": "R",
-			"Year": "2003"
-		},
-		{
-			"Title": "Casino Royale",
-			"Director": "Martin Campbell",
-			"Rating": "PG-13",
-			"Year": "2006"
-		},
-		{
-			"Title": "The Dark Knight",
-			"Director": "Christopher Nolan",
-			"Rating": "PG-13",
-			"Year": "2008"
-		}
+	"timetable": [
+	  {
+		"day": "Monday",
+		"classes": [
+		  {
+			"course": "INFO 290M",
+			"startTime": "11:00",
+			"endTime": "14:00"
+		  }
+		]
+	  },
+	  {
+		"day": "Tuesday",
+		"classes": [
+		  {
+			"course": "INFO 202",
+			"startTime": "14:00",
+			"endTime": "15:30"
+		  }
+		]
+	  },
+	  {
+		"day": "Wednesday",
+		"classes": [
+		  {
+			"course": "MECENG 375",
+			"startTime": "16:00",
+			"endTime": "17:00"
+		  }
+		]
+	  },
+	  {
+		"day": "Thursday",
+		"classes": [
+		  {
+			"course": "INFO 271B",
+			"startTime": "12:30",
+			"endTime": "14:00"
+		  }
+		]
+	  },
+	  {
+		"day": "Friday",
+		"classes": []
+	  }
 	]
-}
+  }
