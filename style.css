@@ -1177,6 +1177,8 @@ progress {
   .col-md-6 {
     flex: 0 0 auto;
     width: 50%;
+    align-items: center;
+    text-align: center;
   }
 
   .col-md-7 {
@@ -1379,7 +1381,9 @@ progress {
 
   .col-lg-4 {
     flex: 0 0 auto;
-    width: 33.33333333%;
+    width: auto;
+    align-items: center;
+    text-align: center;
   }
 
   .col-lg-5 {
@@ -7361,6 +7365,8 @@ textarea.form-control-lg {
 
 .mb-4 {
   margin-bottom: 1.5rem !important;
+  align-items: center;
+  text-align: center;
 }
 
 .mb-5 {
