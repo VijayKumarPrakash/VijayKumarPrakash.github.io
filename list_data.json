@@ -1,34 +1,34 @@
 {
 	"timetable": [
 	  {
-		"day": "Monday",
-		"course": "INFO 290M",
-		"startTime": "11:00",
-		"endTime": "14:00"
+		"Day": "Monday",
+		"Course": "INFO 290M",
+		"StartTime": "11:00",
+		"EndTime": "14:00"
 	  },
 	  {
-		"day": "Tuesday",
-		"course": "INFO 202",
-		"startTime": "14:00",
+		"Day": "Tuesday",
+		"Course": "INFO 202",
+		"StartTime": "14:00",
 		"endTime": "15:30"
 	  },
 	  {
-		"day": "Wednesday",
-		"course": "MECENG 375",
-		"startTime": "16:00",
-		"endTime": "17:00"
+		"Day": "Wednesday",
+		"Course": "MECENG 375",
+		"StartTime": "16:00",
+		"EndTime": "17:00"
 	  },
 	  {
-		"day": "Thursday",
-		"course": "INFO 271B",
+		"Day": "Thursday",
+		"Course": "INFO 271B",
 		"startTime": "12:30",
-		"endTime": "14:00"
+		"EndTime": "14:00"
 	  },
 	  {
-		"day": "Friday",
-		"course": null,
-		"startTime": null,
-		"endTime": null
+		"Day": "Friday",
+		"Course": null,
+		"StartTime": null,
+		"EndTime": null
 	  }
 	]
   }
