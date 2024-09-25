@@ -1176,7 +1176,7 @@ progress {
 
   .col-md-6 {
     flex: 0 0 auto;
-    width: 50%;
+    width: auto;
     align-items: center;
     text-align: center;
   }
